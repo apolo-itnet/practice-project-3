@@ -169,3 +169,178 @@ header {
 
   }
 }
+
+.feature-container {
+  padding: 2rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 4rem;
+
+  .feature-content {
+    width: 50%;
+
+    .feature-heading {
+      font-size: 3rem;
+    }
+
+    .feature-description {
+      font-size: .9rem;
+      line-height: 1.6rem;
+      margin: 1.5rem 0 1.5rem 0;
+    }
+
+
+    .card-container{
+      background-color: #df0c0c ;
+      background-color: #f9f9f9 ;
+      margin: .8rem 0;
+      display: flex;
+      flex-direction: column;
+
+      .content-card {
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: .5rem;
+        background-color: var(--text-white-color);
+  
+        .description {
+          font-size: .9rem;
+          line-height: 1.6rem;
+        }
+      }
+    }
+
+    
+
+  }
+
+  .feature-image {
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+      width: 90%;
+    }
+
+    .btn-primary {
+      /* margin-top: -5rem;
+      margin-left: -5rem; */
+      position: absolute;
+      top: 88%;
+      left: 0;
+
+      padding: 1.5rem 2.5rem;
+
+      #experience-year{
+        font-size: 1.8rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+}
+
+.facts-container{
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+
+  .facts-heading {
+    font-size: 3rem;
+  }
+
+  .facts-description {
+    font-size: 1rem;
+    width: 50%;
+  }
+
+
+  .facts-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 2rem 0 2rem 0;
+
+    .facts-card {
+      background-color: var(--text-white-color);
+      padding: 1rem;
+      border-radius: .5rem;
+      width: 18%;
+      text-align: center;
+      margin: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--text-orange-color);
+
+      .facts-number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-dark-color);
+      }
+
+      .facts-description {
+        font-size: 1rem;
+        color: var(--text-gray-color);
+      }
+    }
+
+  }
+
+}
+
+
+.sponsor-section {
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+
+  .sponsor-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  .sponsor-heading {
+    font-size: 3rem;
+  }
+
+  .sponsor-description {
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+    margin: 1.5rem 0 3rem 0;
+  }
+}
+
+  .sponsor-companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    img{
+      width: 10%;
+      /* margin: 0rem 5rem; */
+    }
+  }
+ 
+}
+
+footer {
+  margin: 5rem 10rem;
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: .5rem;
+  background-color: var(--secondary-bg-color);
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-dark-color);
+  }
+
+}
